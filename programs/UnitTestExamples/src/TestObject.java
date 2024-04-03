@@ -34,6 +34,7 @@ public class TestObject {
   // totalOrderValue   90       100      50      110
   // expected result:  2%       5%       0%      0%
   public static double discount(boolean isMember, double totalOrderValue) {
+    if (totalOrderValue < 0) throw new IllegalArgumentException("Negativer Bestellwert unzulässig");
     if (!isMember) return 0;
     return totalOrderValue >= 100.0 ? 5 : 2;
   }
