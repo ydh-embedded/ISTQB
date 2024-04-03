@@ -111,3 +111,65 @@ Die Root Cause (Hauptursache) ist die eigentliche Ursache für das Auftreten ein
 6. Testing ist abhängig vom Kontext: Testverfahren bzw. Testmethoden unterscheiden sich je nach Softwareprojekt bzw. auch nach Umfang der Software und den zeitlichen, finanziellen und gesetzlichen Rahmenbedingungen. Beispiel: Eine Software mit grafischer Schnittstelle wird anders getestet, als eine Software, die lediglich kommandozeilenbasiert arbeitet. Eine Software, die im medizinischen Bereich eingesetzt wird und deren Fehlverhalten zum Tode eines Menschen führen kann, wird deutlich strikter geprüft, als ein PC-Spiel.
 7. Abwesenheit von Fehlern bedeutet nicht zwangsläufig, dass die Software korrekt bzw. zielgerichtet entwickelt wurde: Nur weil die Software die Spezifikation vermeintlich fehlerfrei erfüllt, heißt das nicht, dass die Software auch dem Endkunden den gewünschten Nutzen bringt und ihn bei seiner alltäglichen Arbeit unterstützt. Neben der Verifikation ist auch immer eine Validierung notwendig.
 
+## Test Activities, Testware and Test Roles
+
+Eine Test Basis ist eine Menge von Dokumenten, die für die Erstellung von Testfällen und das Test Design verwendet wird. Ohne Test Basis kann keine Test Analysis durchgeführt werden. Beispiele für eine Test Basis sind: Anforderungsdokumente (Lastenheft, Pflichtenheft), User Manuals, Source Code, Use Cases (Anwendungsfall), User Stories, Technische und funktionale Spezifikation (eigentlich im Pflichtenheft enthalten).
+
+Testware ist eine Zusammensetzung aus den Worten Testing und Software. Darunter versteht man eine Menge von Dokumenten und Werkzeugen, die während des Testprozesses erstellt oder verwendet werden. Beispiel: Testprotokoll bzw. Testbericht, Test Runner zum automatischen Durchlauf von Tests, Tools für Dokumentation und Bug-Tracking.
+
+Ein Test Charter ist ein Dokument, das festhält, welche Ziele mit einer Test Session verfolgt werden, was zu testen ist und wie beim Testen vorgegangen werden soll. Man kann es sich wie eine Anleitung zum Testen vorstellen.
+
+Eine Anomaly ist eine Abweichung von einem erwarteten Testergebnis.
+
+Ein Testprozess besteht aus diversen Testaktivitäten, die sich in folgende Kategorien einordnen lassen:
+
+- Test Planning: 
+  - Testziele festlegen und Testverfahren auswählen
+- Test Monitoring und Test Control: 
+  - **Sicherstellen**, dass der Testprozess voranschreitet und **die Testziele bzw. der Testplan erfüllt werden**. 
+  - Beim Test Controlling werden Maßnahmen festgelegt, die durchzuführen sind, wenn der Testplan vom Soll abweicht. 
+- Test Analysis: 
+  - Analysiere die Test Basis und identifiziere Aspekte, die sinnvoll getestet werden können. 
+  - Dazu gehören auch die Test-Rahmenbedingungen, die für einen Testfall gelten müssen (z.B. 1000 Tests pro Sekunde mit einer Response Time von 50ms).
+  - Priorisieren von Testfällen nach Risiko.
+  - **Was soll getestet werden** und wie genau oder wie umfangreich ist zu testen?
+- Test Design (Testentwurf): 
+  - Konkrete Ausarbeitung von Testfällen und Testware. 
+  - Dazu gehören auch die Festlegung von Eingaben für den Testfall, die Wertebereiche für Testeingaben etc.
+  - Festlegung der Test Environment (z.B. Testdatenbank, Datenbank-Mocks, Dateien / Verzeichnisse etc.)
+  - Festlegung der benötigten Test Tools.
+  - **Wie soll getestet werden?**
+- Test Implementation:
+  - Die konkrete Umsetzung eines Tests.
+  - Hier wird Testware (Testberichte, Testanforderungen) erzeugt bzw. bezogen, d.h. Testdaten generiert oder aus einer Datenbank geholt.
+  - Hier werden automatisierte Tests (z.B. Unit Tests) programmiert und ausgeführt.
+  - Testfälle werden kategorisiert zu Test Suites, sofern sinnvoll.
+  - Angemessene Testumgebung erstellen (z.B. einen Test Server aufsetzen)
+  - Testskripte erstellen.
+  - Reihenfolge festlegen, in der die Tests auszuführen sind.
+  - **Hier wird alles vorbereitet, um die Tests ausführen zu können.**
+- Test Execution:
+  - Die Tests in der vorher festgelegten Reihenfolge durchlaufen.
+  - Tests können händisch oder automatisch durchgeführt werden.
+  - Erwartete und tatsächlich erhaltene Ergebnisse vergleichen und aufzeichnen.
+  - Ergründen, weshalb ein Testergebnis nicht dem erwarteten Ergebnis entspricht.
+- Test Completion:
+  - Hier werden Aktivitäten ausgeführt, die i.d.R. erst am Ende einer Entwicklungsphase bzw. Iteration sinnvoll sind.
+  - Testdokumente werden archiviert bzw. weitergereicht an andere Teams.
+  - Der gesamte Testprozess wird kritisch bewertet und ggf. optimiert.
+  - Die Test Environment wird zurückgesetzt.
+  - Ein Abschlussbericht wird erstellt und an die Stakeholder übergeben.
+
+### Was beeinflusst das Software Testing?
+
+- Stakeholder
+- Zeit, Budget, Personal
+- Zur Verfügung stehende Testing Tools
+- Branche (z.B. im medizinischen Bereich ist intensiver zu testen als im Gaming Bereich)
+- der verwendete Softwareentwicklungsprozess (Wasserfall vs. Scrum)
+- Das Entwicklerteam und deren Einstellung zum Thema Testing
+- Die Vorgaben der Geschäftsführung bzw. des Unternehmens
+- Technische Faktoren (Softwareart: IoT Device ist schwerer zu updaten als ein PC Game)
+
+
+
