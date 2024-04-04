@@ -171,5 +171,32 @@ Ein Testprozess besteht aus diversen Testaktivitäten, die sich in folgende Kate
 - Die Vorgaben der Geschäftsführung bzw. des Unternehmens
 - Technische Faktoren (Softwareart: IoT Device ist schwerer zu updaten als ein PC Game)
 
+### Testware
+
+Eine Test Procedure ist eine Sequenz von Test Cases, die in einer bestimmten Ausführreihengolge angeordnet sind. Zur Test Procedure gehören Vor- und Nachbedingungen für die einzelnen Test Cases, sowie eine Initialisierung der Testumgebung und ein "Tear-Down" der Testumgebung. Analogie: Denke an eine JUnit Test Class mit `BeforeAll`, `AfterAll`, `BeforeEach` und `AfterEach` sowie `Test`.
+
+Eine Test Suite ist eine Menge von Test Procedures oder Test Scripts, die als eine Einheit auszuführen ist.
+
+Während des gesamten Testprozesses werden Dokumente (Testware) erzeugt:
+
+- In der Test Planning Phase: 
+  - Test Plan
+  - zeitliche Planung der Tests (Test Schedule), 
+  - Risk Register (Kategorisierung nach Risiko), 
+  - Vorbedingungen für Tests
+  - Definition, wann Test abgeschlossen ist (wann wurde ausreichend getestet?)
+- In der Test Monitoring / Test Control Phase:  
+  - Test Progress Reports
+  - Maßnahmen, die getroffen wurden, um entdeckte Probleme zu beheben (Control Directives)
+  - Einschätzung der Risiken (Das Risiko kann sich aufgrund geänderter Rahmenbedingungen wie Personal etc. ändern)
+- In der Test Analysis Phase:
+  - Testfälle (Test Cases) erstellen
+  - Test Charters (Anleitung zum Testen, Vorgabe)
+  - Coverage Items (z.B. Methoden und Klassen, die getestet werden sollen oder eine Webseite einer Web Application)
+  - Testdaten (z.B. eine CSV Datei, Datenbank, eine API zum Generieren von Fake Data)
+  - Vorgaben für die Test Environment (z.B. Vorhandensein bestimmter Test Server, Anlegen von Dateien und Verzeichnisstrukturen etc.)
+- In der Test Implementation Phase:
+  - Test Procedures (z.B. Implementierung einer JUnit Test Class)
+  - Testskripte (z.B. ein Skript, das Benutzereingaben simuliert (e.g. AutoHotKey))
 
 
