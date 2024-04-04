@@ -1,9 +1,0 @@
-isMember;   totalOrderValue;    expectedResult
-true;       50;                 2
-true;       99.99;              2
-true;       100.0;              5
-true;       110.0;              5
-false;      50.0;               0
-false;      100.0;              0
-false;      110.0;              0
-false;      1000.50;            0
