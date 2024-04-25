@@ -1,0 +1,160 @@
+<mxfile host="Electron" modified="2024-04-04T11:34:45.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="iPvAQcspplhk6CEdLWyg" version="22.0.3" type="device">
+  <diagram name="Seite-1" id="roXuE7L3s7j9phd4YfCg">
+    <mxGraphModel dx="1687" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="392.5" width="210" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-21" value="&amp;lt;&amp;lt;trace&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-2" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-2" value="Test Basis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-3" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-3" value="Requirement Document" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-5" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-5" value="Risk analysis document" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-6" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-6" value="Source Code für Softwarekomponente &lt;b&gt;S001&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-11" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-11" value="User Story" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-18" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-18" value="Use Cases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-20" value="Testware&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-22" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-22" value="JUnit Test Class &lt;b&gt;TC005&lt;/b&gt;&lt;br&gt;für Softwarekomponente &lt;b&gt;S001&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-24" value="Alle Dokumente müssen eindeutige IDs bzw. Tags erhalten, damit sie während der gesamten Entwicklungs- und Testphase getrackt werden können." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="544.5" y="50" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-25" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-25" value="Test Schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-26" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-26" value="Test Report &lt;b&gt;TR005&lt;/b&gt; für JUnit Test Class &lt;b&gt;TC005&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="845" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-27" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-27" value="Bug Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-32" value="&lt;b&gt;Anforderungsdokument (Requirement Document):&lt;/b&gt;&lt;br&gt;&lt;br&gt;- Nutzer muss sich am System anmelden können (R001)&lt;br&gt;- Nutzer muss eine Ware bestellen können (R002)&lt;br&gt;- Nutzer muss eine Bestellung storieren können (R003)&lt;br&gt;- Nutzer muss eine Bezahlmethode auswählen können (R004)&lt;br&gt;&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#eeeeee;strokeColor=#36393d;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="410" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-33" value="Test Case" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-34" value="Test Case" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-35" value="Test Case" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-36" value="Test Case&lt;br&gt;(z.B. UI Test, JUnit Automated Test)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-38" value="Requirement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-39" value="Requirement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-42" value="wird abgedeckt durch&lt;br&gt;(is covered by test cases)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-40" target="yplDRdkCxZIl3KR5xcUl-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-49" value="wird eingeschätzt durch" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-40" target="yplDRdkCxZIl3KR5xcUl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-40" value="Requirement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-45" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-44" target="yplDRdkCxZIl3KR5xcUl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-44" value="Jeder Test Case muss eindeutig identifizierbar sein" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="820" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-47" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-46" target="yplDRdkCxZIl3KR5xcUl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-46" value="Jede Anforderung muss eindeutig identifizierbar sein." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-48" value="Risk Analysis Document" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-50" value="Das Risiko der Umsetzung jeder Requirement wird bewertet und getrackt." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-51" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-50" target="yplDRdkCxZIl3KR5xcUl-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="709.48" as="sourcePoint" />
+            <mxPoint x="400" y="639.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-55" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-52" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-52" value="Alle Arbeitsergebnisse, die während des Testens entstehen oder genutzt werden" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="900" y="10" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-53" target="yplDRdkCxZIl3KR5xcUl-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="290" />
+              <mxPoint x="1010" y="230" />
+              <mxPoint x="980" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-53" value="Test Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-57" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="yplDRdkCxZIl3KR5xcUl-56" target="yplDRdkCxZIl3KR5xcUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-56" value="Alle Dokumente und Informationen, die als Grundlage zum Testen dienen." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yplDRdkCxZIl3KR5xcUl-58" value="&lt;b&gt;Traceability &lt;/b&gt;stellt sicher, dass alle Dokumente und Arbeitsergebnisse (work products) in Beziehung gesetzt werden können. Man kann dadurch nachvollziehen, &lt;b&gt;was&lt;/b&gt;, &lt;b&gt;wann&lt;/b&gt;, &lt;b&gt;womit &lt;/b&gt;und &lt;b&gt;weshalb &lt;/b&gt;gemacht wurde. Außerdem lassen sich die &lt;b&gt;Ergebnisse &lt;/b&gt;und daraus resultierenden &lt;b&gt;Maßnahmen &lt;/b&gt;ablesen." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="606" y="680" width="509" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
