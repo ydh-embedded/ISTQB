@@ -1,0 +1,7 @@
+isMember,totalOrderValue,expected
+true,   50,     2
+true,   100,    5
+true,   110,    5
+false,  50,     0
+false,  100,     0
+false,  110,     0
